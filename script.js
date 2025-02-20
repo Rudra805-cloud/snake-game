@@ -102,7 +102,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 highestScore = score;
                 highestScoreDisplay.innerText = `Highest Score: ${highestScore}`;
             }
-            return; // Prevent further drawing after game over
         }
 
         snake.unshift(newHead);
